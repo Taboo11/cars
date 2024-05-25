@@ -589,5 +589,17 @@ body {
   .sab-header__car-info {
         flex-wrap: wrap;
   }
+  .sab-header__btn{
+    flex-wrap: wrap;
+  }
+  .gallery-foto__link {
+    font-size: 20px;
+    right: 8px;
+    bottom: 1px;
+  }
+  .gallery-foto__title{
+    line-height: 27px;
+    top: 0px;
+  }
   
 }
