@@ -565,4 +565,11 @@ body {
     margin-bottom: 18px;
     width: 150px;
   }
+  .nav-title {
+    text-align: center;
+  }
+  .about-as__nav-wrap{
+    flex-wrap:wrap;
+  }
+  
 }
