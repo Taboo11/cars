@@ -600,6 +600,10 @@ body {
   .gallery-foto__title{
     line-height: 27px;
     top: 0px;
+    left: 14px;
+  }
+  .car-rentals__title{
+    font-size: 32px;
   }
   
 }
