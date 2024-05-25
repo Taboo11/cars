@@ -524,6 +524,7 @@ body {
   }
   .about-as__nav-wrap {
     margin: 40px auto 50px auto;
+    flex-wrap: wrap;
   }
   .abou-as__social {
     margin-top: 10px;
@@ -568,8 +569,25 @@ body {
   .nav-title {
     text-align: center;
   }
-  .about-as__nav-wrap{
-    flex-wrap:wrap;
+  .about-as__nav{
+        flex: 1 1 100%;
+    text-align: center;
+  }
+  .nav-title{
+    text-align: center;
+  }
+  .our-services__content {
+    
+    grid-template-columns: 1fr;
+    grid-auto-rows: 3fr;
+    gap: 14px;
+    padding-bottom: 10px;
+}
+  .header-btn{
+    display: none;
+  }
+  .sab-header__car-info {
+        flex-wrap: wrap;
   }
   
 }
